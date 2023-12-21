@@ -1,0 +1,43 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./fonts/Norse-Bold.otf);
+  }
+  
+#container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+ margin: 0;
+}
+#left{
+    background-image: url(./img/sebin-thomas-OdBFUurPHjo-unsplash.jpg);
+    width: 33.3vw;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: white;
+    font-family: norse-bold;
+} 
+
+#right{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+}
+
+.first{
+    height: 20vh;
+    font-weight: 510;
+}
+.second{
+    height: 30vh;
+}
+.third{
+    height: 20vh;
+}
+.empty{
+    height: 15vh;
+}
