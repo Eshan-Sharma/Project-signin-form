@@ -14,7 +14,7 @@ body{
 }
 #left{
     background-image: url(./img/sebin-thomas-OdBFUurPHjo-unsplash.jpg);
-    width: 33.3vw;
+    width: 35vw;
     background-repeat: no-repeat;
     background-size: auto;
     color: white;
@@ -24,20 +24,75 @@ body{
 #right{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 65vw;
     justify-content: center;
 }
 
 .first{
-    height: 20vh;
-    font-weight: 510;
+    height: 30vh;
+    display: flex;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    background-color: #fafafa;
+    justify-content: flex-start;
+    align-items: flex-end;
+
 }
 .second{
-    height: 30vh;
+    height: 40vh;
+    background-color: white;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+.form-main-div{
+    display: flex;
+    flex-direction: row;
+}
+.form-div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+}
+input{
+    height: 25px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus{
+    border: 1px solid;
+    border-color: blue;
+}
+
+input:invalid{
+    border: 1px solid red;
+}
+#error{
+    color: red;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+label{
+    font-size: 12px;
+    color: #a1a1ba;
 }
 .third{
-    height: 20vh;
 }
-.empty{
-    height: 15vh;
+.btn-green{
+    background-color: #596d48;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #596d48;
+    height: 30px;
+    width: 200px;
+    margin-left: 5%;
+}
+.hyperlink{
+    margin-left: 5%;
+}
+a{
+    text-decoration: none;
+    color: #596d48;
 }
