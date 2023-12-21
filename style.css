@@ -13,10 +13,11 @@ body{
  margin: 0;
 }
 #left{
-    background-image: url(./img/sebin-thomas-OdBFUurPHjo-unsplash.jpg);
+    background-image: url(./img/tobias-rademacher-U3Oyfwx0tgk-unsplash.jpg);
+    background-position: center;
     width: 35vw;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     color: white;
     font-family: norse-bold;
 } 
@@ -42,7 +43,8 @@ body{
     height: 40vh;
     background-color: white;
     padding-left: 5%;
-    padding-bottom: 5%;
+    box-shadow: 2px 5px #e5e7eb;
+    margin-bottom: 2%;
 }
 .form-main-div{
     display: flex;
@@ -88,6 +90,7 @@ label{
     height: 30px;
     width: 200px;
     margin-left: 5%;
+    box-shadow: 2px 5px #e5e7eb;
 }
 .hyperlink{
     margin-left: 5%;
@@ -95,4 +98,21 @@ label{
 a{
     text-decoration: none;
     color: #596d48;
+}
+.odin{
+    color: black;
+    opacity: 90%;
+    font-size: 70px
+}
+.forImage{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
